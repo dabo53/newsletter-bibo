@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f8f6f3;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(218, 165, 32, 0.15);
+}
+
+/* Hero-Section */
+.hero-section {
+    background: linear-gradient(135deg, #DAA520 0%, #F4A460 50%, #DEB887 100%);
+    padding: 50px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.hero-image {
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(139, 69, 19, 0.25);
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Content */
+.content {
+    padding: 45px 40px;
+    background: linear-gradient(180deg, #fefcf8 0%, #ffffff 100%);
+}
+
+/* Begrüßung */
+.greeting {
+    font-size: 20px;
+    color: #8B4513;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #654321;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+/* Cocktail-Highlight-Box */
+.cocktail-highlight-box {
+    background: linear-gradient(135deg, #F5DEB3 0%, #FAEBD7 100%);
+    border: 3px solid #DAA520;
+    border-radius: 25px;
+    padding: 40px 35px;
+    margin: 40px 0;
+    box-shadow: 0 15px 40px rgba(218, 165, 32, 0.2);
+    position: relative;
+}
+
+.cocktail-title {
+    font-size: 36px;
+    text-align: center;
+    color: #8B4513;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(218, 165, 32, 0.3);
+}
+
+.cocktail-subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #A0522D;
+    font-style: italic;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+
+/* Zwei-Spalten Layout */
+.recipe-layout {
+    display: flex;
+    gap: 35px;
+    align-items: flex-start;
+    margin: 35px 0;
+}
+
+.recipe-left {
+    flex: 1;
+    text-align: center;
+}
+
+.opus-image {
+    width: 140px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(139, 69, 19, 0.2);
+    max-width: 100%;
+}
+
+.recipe-right {
+    flex: 1.3;
+}
+
+.ingredients-title {
+    font-size: 20px;
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.ingredient-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #654321;
+    line-height: 1.4;
+}
+
+.ingredient-emoji {
+    font-size: 18px;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.ingredient-text {
+    flex: 1;
+}
+
+.ingredient-main {
+    font-weight: 600;
+    color: #8B4513;
+}
+
+.ingredient-sub {
+    font-size: 13px;
+    color: #A0522D;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Lifestyle-Bild */
+.lifestyle-section {
+    margin: 35px 0;
+}
+
+.lifestyle-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 18px 45px rgba(218, 165, 32, 0.25);
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 18px;
+    color: #8B4513;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 25px 0;
+}
+
+/* CTA-Button */
+.cta-section {
+    text-align: center;
+    margin: 50px 0;
+    padding: 35px;
+    background: linear-gradient(135deg, #F5DEB3 0%, #FAEBD7 100%);
+    border-radius: 25px;
+    border: 2px solid rgba(218, 165, 32, 0.3);
+}
+
+.cta-title {
+    font-size: 22px;
+    color: #8B4513;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #DAA520 0%, #B8860B 100%);
+    color: white;
+    padding: 18px 40px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 12px 35px rgba(218, 165, 32, 0.35);
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #B8860B 0%, #9A7209 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 18px 45px rgba(218, 165, 32, 0.45);
+    color: white;
+}
+
+/* Instagram-Callout */
+.instagram-section {
+    background: linear-gradient(135deg, #F0E68C 0%, #F5DEB3 100%);
+    border: 2px solid rgba(240, 230, 140, 0.5);
+    border-radius: 25px;
+    padding: 35px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.instagram-section h3 {
+    font-size: 22px;
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.instagram-section p {
+    color: #654321;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.hashtag-bubble {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    color: #8B4513;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 15px 5px;
+    border: 2px solid rgba(218, 165, 32, 0.4);
+    box-shadow: 0 8px 20px rgba(218, 165, 32, 0.2);
+    font-size: 16px;
+}
+
+.final-message {
+    text-align: center;
+    font-size: 17px;
+    color: #8B4513;
+    line-height: 1.6;
+    margin: 35px 0;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #654321 0%, #4A2C2A 100%);
+    color: #F5DEB3;
+    padding: 40px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.footer-text {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.footer-signature {
+    font-size: 20px;
+    color: #DAA520;
+    font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .newsletter-container {
+        margin: 10px;
+        border-radius: 15px;
+    }
+    
+    .hero-section,
+    .content,
+    .cta-section,
+    .instagram-section,
+    .footer {
+        padding: 30px 25px;
+    }
+    
+    .cocktail-highlight-box {
+        padding: 30px 25px;
+        margin: 30px 0;
+    }
+    
+    .recipe-layout {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    
+    .cocktail-title {
+        font-size: 28px;
+    }
+    
+    .lifestyle-image {
+        height: 250px;
+    }
+    
+    .hero-image {
+        width: 180px;
+    }
+    
+    .opus-image {
+        width: 120px;
+    }
+}
